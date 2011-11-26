@@ -1,4 +1,49 @@
-Zombie-BBD
+The Specification
+================================================================================
+
+Story: Zombies Eat People
+In order to quench an unending hunger for human flesh
+As a zombie
+I want to eat people
+ 
+Behaviour: Zombie Eats a Person
+Given I have an animated zombie
+And I have a living person
+When I eat a person
+Then the person should die
+ 
+Story: People Attack Zombies
+In order to avoid becoming lunch
+As a person
+I want to kill zombies
+ 
+Behaviour: Person Attacks Zombie without a Weapon
+Given I have a living person
+And I do not have an equipped weapon
+And I have an animated zombie
+When I attack a zombie
+Then the zombie should not die
+ 
+Behaviour: Person Attacks Zombie with a Weapon
+Given I have a living person
+And I have an equipped weapon
+And I have an animated zombie
+When I attack a zombie
+Then the zombie should die
+ 
+Story: People Equip Weapons
+In order protect myself from zombies
+As a person
+I want to use a weapon
+ 
+Behaviour: Person Equips a Weapon
+Given I have a living person
+And I do not have an equipped weapon
+When I equip a weapon
+Then I should have an active weapon
+
+
+GitHub Repository
 ================================================================================
 *** All Git Commands ARE case sensitive ***
 
