@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombies", "Zombies\Zombies.csproj", "{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombies.AcceptanceTests", "Zombies.AcceptanceTests\Zombies.AcceptanceTests.csproj", "{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://redmandev.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Zombies.AcceptanceTests\\Zombies.AcceptanceTests.csproj
+		SccProjectName1 = Zombies.AcceptanceTests
+		SccLocalPath1 = Zombies.AcceptanceTests
+		SccProjectUniqueName2 = Zombies\\Zombies.csproj
+		SccProjectName2 = Zombies
+		SccLocalPath2 = Zombies
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7BE0E72E-BCFE-469F-891D-8EE3ECE5CDFD}.Release|x86.ActiveCfg = Release|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EBE56A30-2061-4B0D-AD6B-954AC548BC2D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
