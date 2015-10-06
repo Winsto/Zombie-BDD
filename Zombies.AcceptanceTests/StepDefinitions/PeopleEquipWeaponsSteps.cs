@@ -9,29 +9,25 @@ namespace Zombies.AcceptanceTests.StepDefinitions
 		[Given(@"I have an equiped weapon")]
 		public void GivenIHaveAnEquipedWeapon()
         {
-            var person = ScenarioContext.Current.Get<Person>();
-            person.EquipWeapon(new Weapon());
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[Given(@"I do not have an equiped weapon")]
 		public void GivenIDoNotHaveAnEquipedWeapon()
         {
-            var person = ScenarioContext.Current.Get<Person>();
-            person.EquipWeapon(null);
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[When(@"I equip a weapon")]
 		public void WhenIEquipAWeapon()
         {
-            var person = ScenarioContext.Current.Get<Person>();
-            person.EquipWeapon(new Weapon());
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[Then(@"I should have an active weapon")]
 		public void ThenIShouldHaveAnActiveWeapon()
         {
-            var person = ScenarioContext.Current.Get<Person>();
-            person.ActiveWeapon.Should().Not.Be.Null();
-		}
+            ScenarioContext.Current.Pending();
+        }
 	}
 }

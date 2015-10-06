@@ -9,32 +9,26 @@ namespace Zombies.AcceptanceTests.StepDefinitions
 		[Given(@"I have an animated zombie")]
 		public void GivenIHaveAnAnimatedZombie()
 		{
-			var zombie = new Zombie();
-            ScenarioContext.Current.Set(zombie);
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[Given(@"I have a living person")]
 		public void GivenIHaveALivingPerson()
 		{
-			var person = new Person();
-            ScenarioContext.Current.Set(person);
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[When(@"I eat a person")]
 		public void WhenIEatAPerson()
 		{
-            var zombie = ScenarioContext.Current.Get<Zombie>();
-            var person = ScenarioContext.Current.Get<Person>();
-
-			zombie.Eat(person);
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[Then(@"the person should die")]
 		public void ThenThePersonShouldDie()
         {
-            var person = ScenarioContext.Current.Get<Person>();
-			person.IsAlive.Should().Be.False();
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 	}
 }

@@ -9,24 +9,19 @@ namespace Zombies.AcceptanceTests.StepDefinitions
 		[When(@"I attack a zombie")]
 		public void WhenIAttackAZombie()
         {
-            var person = ScenarioContext.Current.Get<Person>();
-            var zombie = ScenarioContext.Current.Get<Zombie>();
-
-            person.Attack(zombie);
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[Then(@"the zombie should die")]
 		public void ThenTheZombieShouldDie()
         {
-            var zombie = ScenarioContext.Current.Get<Zombie>();
-            zombie.IsAnimated.Should().Be.False();
-		}
+            ScenarioContext.Current.Pending();
+        }
 
 		[Then(@"the zombie should not die")]
 		public void ThenTheZombieShouldNotDie()
         {
-            var zombie = ScenarioContext.Current.Get<Zombie>();
-            zombie.IsAnimated.Should().Be.True();
-		}
+            ScenarioContext.Current.Pending();
+        }
 	}
 }
